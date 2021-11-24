@@ -5,10 +5,19 @@ nav {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 3%;
 
     li {
       list-style-type: none;
+      color: white;
+      font-family: "jost"; 
+      font-size: 24px; 
+    }
+
+    button{
+     color: white;
+     font-family: "jost"; 
+
     }
 
   }

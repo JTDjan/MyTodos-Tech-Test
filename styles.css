@@ -10,6 +10,7 @@
 button {
   background-image: linear-gradient(180deg, #E1A0A0, #E58181);
   box-shadow: 0 10px 40px #6B3838;
+  padding: 3%;
 }
 
 button:hover {
@@ -20,18 +21,35 @@ nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 10%;
+  padding-top: 3%;
 }
 nav ul li {
   list-style-type: none;
+  color: white;
+  font-family: "jost";
+  font-size: 24px;
+}
+nav ul button {
+  color: white;
+  font-family: "jost";
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 main #textContainer h1 {
   color: white;
   font-size: 48px;
   font-family: jost;
+  padding: 1%;
 }
 main #textContainer p {
   color: white;
   font-size: 16px;
+  font-family: jost;
+  padding: 1%;
 }

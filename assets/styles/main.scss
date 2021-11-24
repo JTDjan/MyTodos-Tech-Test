@@ -2,17 +2,27 @@
 
 
  main {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
     #textContainer{
         h1 {
           color: white;
           font-size: 48px;
           font-family: jost;
-
+          padding: 1%;
         }
 
         p{
           color: white;
           font-size: 16px;
+          font-family: jost;
+          padding: 1%;
+
         }
     }
  }
